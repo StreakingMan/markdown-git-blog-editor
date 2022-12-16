@@ -18,8 +18,13 @@ import HelloWorld from './components/HelloWorld.vue';
 </template>
 
 <style>
+@font-face {
+    font-family: Smiley;
+    src: url('assets/SmileySans-Oblique.ttf.woff2') format('woff2');
+}
+
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: Smiley, serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
